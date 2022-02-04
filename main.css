@@ -1,0 +1,53 @@
+body{
+    background-color: cornsilk;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+}
+
+.paren{
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.paren:hover{
+    /*transition-property: background-color;*/
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    color: red;
+    background-color: yellow;
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+
+.neparen{
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.neparen:hover{
+    /*transition-property: background-color;*/
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    font-size: 20px;
+    letter-spacing: 15px;
+    text-decoration: overline;
+    transform: rotate(24deg);
+}
